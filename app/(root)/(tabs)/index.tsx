@@ -9,7 +9,9 @@ export default function Index() {
         justifyContent: "center",
         alignItems: "center",
       }}>
-      <Text className="font-bold text-lg my-10">Welcome to R-Estate</Text>
+      <Text className="font-bold text-lg my-10 font-rubik text-3xl">
+        Welcome to R-Estate
+      </Text>
       <Link href="/sign-in">Sign In</Link>
       <Link href="/explore">Explore</Link>
       <Link href="/profile">Profile</Link>
