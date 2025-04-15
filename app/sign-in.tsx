@@ -29,7 +29,7 @@ const SignIn = () => {
           </Text> */}
           <TouchableOpacity
             onPress={handleLogin}
-            className="bg-white text-center shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-5">
+            className="bg-white text-center shadow-md shadow-zinc-300 rounded-full w-full py-4 mt-10">
             <View className="flex flex-row items-center justify-center">
               <Image
                 source={icons.google}
@@ -37,7 +37,7 @@ const SignIn = () => {
                 resizeMode="contain"
               />
               <Text className="text-lg font-rubik text-black-300 ml-2">
-                Continue with Google
+                Login with Google
               </Text>
             </View>
           </TouchableOpacity>
